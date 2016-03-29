@@ -201,7 +201,7 @@ var app = {
     push.on('registration', function(data) {
         console.log("registration event");
         var gcm_regid = data.registrationId;
-        //alert(gcm_regid+'dashboard js');
+        alert(gcm_regid+'dashboard js');
 
 
 	//alert(gcm_regid+'gcm_regid');
